@@ -371,10 +371,7 @@ function FAQ() {
 
 function Booking() {
   const [form,setForm] = useState({name:"",phone:"",program:"",request:""});
-  const [c1,setC1] = useState(false);
-  const [c2,setC2] = useState(false);
   const [sent,setSent] = useState(false);
-  const disabled = !c1||!c2||!form.name||!form.phone;
   return (
     <section className="ol-booking" id="booking">
       <div className="ol-wrap">
@@ -433,21 +430,7 @@ function Booking() {
                   <label className="ol-fl" htmlFor="brequest">Напиши кратко, что тебя привело</label>
                   <textarea className="ol-fi" id="brequest" rows={3} placeholder="В нескольких словах — что происходит, что болит…" style={{resize:"vertical",minHeight:80}} value={form.request} onChange={(e) => setForm({...form,request:e.target.value})}/>
                 </div>
-                <div className="ol-fg ol-fg--check">
-                  <label className="ol-chk-label">
-                    <input type="checkbox" checked={c1} onChange={(e) => setC1(e.target.checked)} required/>
-                    <span className="ol-chk-box"/>
-                    <span className="ol-chk-txt">Я даю согласие на обработку персональных данных в соответствии с ФЗ-152 *</span>
-                  </label>
-                </div>
-                <div className="ol-fg ol-fg--check">
-                  <label className="ol-chk-label">
-                    <input type="checkbox" checked={c2} onChange={(e) => setC2(e.target.checked)} required/>
-                    <span className="ol-chk-box"/>
-                    <span className="ol-chk-txt">Я ознакомилась и принимаю <a href="#privacy" style={{color:"var(--color-primary)",textDecoration:"underline"}}>Политику конфиденциальности</a> *</span>
-                  </label>
-                </div>
-                <button type="submit" className="ol-fsub" disabled={disabled}>Отправить заявку →</button>
+                <button type="submit" className="ol-fsub" disabled={!form.name||!form.phone}>Отправить заявку →</button>
                 <p className="ol-fnote">* Обязательные поля. Данные защищены и не передаются третьим лицам.</p>
               </form>
             )}
