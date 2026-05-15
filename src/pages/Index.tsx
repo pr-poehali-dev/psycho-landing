@@ -484,27 +484,7 @@ function Footer() {
   );
 }
 
-function Privacy() {
-  return (
-    <section id="privacy" className="ol-privacy">
-      <div className="ol-wrap--narrow">
-        <h2>Политика конфиденциальности</h2>
-        <div style={{display:"flex",flexDirection:"column",gap:"var(--s4)"}}>
-          {[
-            ["Оператор персональных данных:","Литвиненко Оксана (ИП), г. Владивосток."],
-            ["Какие данные собираются:","Имя, номер телефона, адрес Telegram/мессенджера, текст обращения, переданные вами добровольно через форму сайта."],
-            ["Цель обработки:","Обратная связь, запись на консультацию, информирование об услугах."],
-            ["Правовое основание:","ФЗ-152 «О персональных данных» от 27.07.2006 г. Обработка осуществляется исключительно с вашего письменного согласия."],
-            ["Хранение и передача:","Данные не передаются третьим лицам. Срок хранения — до отзыва согласия или не более 3 лет."],
-            ["Ваши права:","Вы вправе в любой момент отозвать согласие, запросить исправление или удаление своих данных, написав в Telegram: @oksana_litvinenko_psy."],
-          ].map(([k,v]) => (
-            <p key={k}><strong style={{color:"var(--color-text)"}}>{k}</strong> {v}</p>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
+
 
 export default function Index() {
   useReveal();
@@ -521,7 +501,6 @@ export default function Index() {
       <FAQ/>
       <Booking/>
       <Footer/>
-      <Privacy/>
       {/* Floating buttons */}
       <div className="ol-float">
         <a href="https://t.me/oksana_litvinenko_psy" target="_blank" rel="noopener noreferrer" className="ol-float__tg" aria-label="Telegram">
