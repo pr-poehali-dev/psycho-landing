@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const HERO_PHOTO = "https://cdn.poehali.dev/projects/e4f136b8-0663-49c6-bb11-081dd0066370/files/b043df5a-7cdf-4552-a2b0-52be8d426236.jpg";
+const HERO_PHOTO = "https://cdn.poehali.dev/projects/e4f136b8-0663-49c6-bb11-081dd0066370/bucket/097515af-2f47-4216-975a-45f1557c16e1.jpeg";
 const POETRY_IMG = "https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/d074a64d-a938-44b8-bde0-ebaf5b9ef4ad.png";
 
 function useReveal() {
