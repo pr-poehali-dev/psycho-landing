@@ -388,10 +388,7 @@ function Booking() {
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{width:18,height:18,color:"var(--color-gold)",flexShrink:0}}><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
                 Telegram: <a href="https://t.me/oksana_litvinenko_psy" target="_blank" rel="noopener noreferrer">@oksana_litvinenko_psy</a>
               </div>
-              <div className="ol-booking__c">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{width:18,height:18,color:"var(--color-gold)",flexShrink:0}}><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
-                Instagram: <a href="https://instagram.com/oksana_litvinenko_psy" target="_blank" rel="noopener noreferrer">@oksana_litvinenko_psy</a>
-              </div>
+
               <div className="ol-booking__c">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{width:18,height:18,color:"var(--color-gold)",flexShrink:0}}><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
                 Владивосток · Онлайн по всей России
@@ -406,7 +403,7 @@ function Booking() {
                 <p style={{color:"var(--color-muted)",fontSize:"var(--text-sm)",lineHeight:1.7,maxWidth:"none"}}>Оксана свяжется с тобой в течение 24 часов.</p>
                 <div style={{display:"flex",gap:"var(--s3)",justifyContent:"center",marginTop:"var(--s6)"}}>
                   <a href="https://t.me/oksana_litvinenko_psy" target="_blank" rel="noopener noreferrer" className="ol-btn-main" style={{background:"#229ED9"}}>Telegram</a>
-                  <a href="https://instagram.com/oksana_litvinenko_psy" target="_blank" rel="noopener noreferrer" className="ol-btn-soft">Instagram</a>
+
                 </div>
               </div>
             ) : (
@@ -470,7 +467,7 @@ function Footer() {
             <div className="ol-footer__brand-name">Оксана Литвиненко</div>
             <p className="ol-footer__desc">Психолог Живой Любви. Возвращаю женщин к себе — и браки оживают сами.</p>
             <div className="ol-footer__social">
-              <a href="https://instagram.com/oksana_litvinenko_psy" target="_blank" rel="noopener noreferrer" aria-label="Instagram">IG</a>
+
               <a href="https://t.me/oksana_litvinenko_psy" target="_blank" rel="noopener noreferrer" aria-label="Telegram">TG</a>
               <a href="https://vk.com/litvinenko_oksana" target="_blank" rel="noopener noreferrer" aria-label="ВКонтакте">ВК</a>
             </div>
