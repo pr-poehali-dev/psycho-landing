@@ -462,9 +462,8 @@ function Footer() {
             </nav>
           </div>
         </div>
-        <div className="ol-footer__bottom">
+        <div className="ol-footer__bottom" style={{justifyContent:"center"}}>
           <span className="ol-footer__copy">© 2026 Оксана Литвиненко · Психолог Живой Любви · Владивосток</span>
-          <a href="#privacy" className="ol-footer__copy" style={{cursor:"pointer"}}>Политика конфиденциальности</a>
         </div>
       </div>
     </footer>
