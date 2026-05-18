@@ -372,6 +372,7 @@ function FAQ() {
 function Booking() {
   const [form,setForm] = useState({name:"",phone:"",program:"",request:""});
   const [sent,setSent] = useState(false);
+  const [checks,setChecks] = useState({privacy:false,personal:false,promo:false});
   return (
     <section className="ol-booking" id="booking">
       <div className="ol-wrap">
@@ -417,7 +418,21 @@ function Booking() {
                   </select>
                 </div>
 
-                <button type="submit" className="ol-fsub" disabled={!form.name||!form.phone}>Отправить заявку →</button>
+                <div className="ol-checks">
+                  <label className="ol-check">
+                    <input type="checkbox" checked={checks.privacy} onChange={(e)=>setChecks({...checks,privacy:e.target.checked})} required/>
+                    <span>Я согласен(а) с политикой конфиденциальности</span>
+                  </label>
+                  <label className="ol-check">
+                    <input type="checkbox" checked={checks.personal} onChange={(e)=>setChecks({...checks,personal:e.target.checked})} required/>
+                    <span>Я даю согласие на обработку персональных данных</span>
+                  </label>
+                  <label className="ol-check">
+                    <input type="checkbox" checked={checks.promo} onChange={(e)=>setChecks({...checks,promo:e.target.checked})}/>
+                    <span>Я согласен(а) на получение рекламной рассылки</span>
+                  </label>
+                </div>
+                <button type="submit" className="ol-fsub" disabled={!form.name||!form.phone||!checks.privacy||!checks.personal}>Отправить заявку →</button>
                 <p className="ol-fnote">* Обязательные поля. Данные защищены и не передаются третьим лицам.</p>
               </form>
             )}
