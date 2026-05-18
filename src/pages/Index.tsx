@@ -416,10 +416,7 @@ function Booking() {
                     <option value="help">Помоги мне выбрать</option>
                   </select>
                 </div>
-                <div className="ol-fg">
-                  <label className="ol-fl" htmlFor="brequest">Напиши кратко, что тебя привело</label>
-                  <textarea className="ol-fi" id="brequest" rows={3} placeholder="В нескольких словах — что происходит, что болит…" style={{resize:"vertical",minHeight:80}} value={form.request} onChange={(e) => setForm({...form,request:e.target.value})}/>
-                </div>
+
                 <button type="submit" className="ol-fsub" disabled={!form.name||!form.phone}>Отправить заявку →</button>
                 <p className="ol-fnote">* Обязательные поля. Данные защищены и не передаются третьим лицам.</p>
               </form>
