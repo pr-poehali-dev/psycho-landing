@@ -380,17 +380,7 @@ function Booking() {
             <span className="ol-tag" style={{background:"rgba(196,149,106,.18)",color:"var(--color-gold)"}}>Записаться</span>
             <h2 className="ol-booking__h2">Сделай первый шаг<br/>к <em>себе настоящей</em></h2>
             <p className="ol-booking__body">Заполни форму — и в течение 24 часов я свяжусь с тобой, чтобы обсудить твой запрос. Начать можно прямо сейчас — с бесплатного разговора по существу.</p>
-            <div className="ol-booking__contacts">
-              <div className="ol-booking__c">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{width:18,height:18,color:"var(--color-gold)",flexShrink:0}}><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-                Telegram: <a href="https://t.me/oksana_litvinenko_psy" target="_blank" rel="noopener noreferrer">@oksana_litvinenko_psy</a>
-              </div>
 
-              <div className="ol-booking__c">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{width:18,height:18,color:"var(--color-gold)",flexShrink:0}}><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                Владивосток · Онлайн по всей России
-              </div>
-            </div>
           </div>
           <div className="ol-reveal ol-d2">
             {sent ? (
