@@ -1272,6 +1272,14 @@
   color: var(--color-muted);
   line-height: 1.5;
 }
+.ol-check-link {
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.ol-check-link:hover {
+  color: var(--color-primary-hover);
+}
 @media (max-width: 900px) {
   .ol-booking__in {
     grid-template-columns: 1fr;
