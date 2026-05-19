@@ -421,15 +421,15 @@ function Booking() {
                 <div className="ol-checks">
                   <label className="ol-check">
                     <input type="checkbox" checked={checks.privacy} onChange={(e)=>setChecks({...checks,privacy:e.target.checked})} required/>
-                    <span>Я согласен(а) с политикой конфиденциальности</span>
+                    <span>Я принимаю условия Публичной оферты</span>
                   </label>
                   <label className="ol-check">
                     <input type="checkbox" checked={checks.personal} onChange={(e)=>setChecks({...checks,personal:e.target.checked})} required/>
-                    <span>Я даю согласие на обработку персональных данных</span>
+                    <span>Я даю согласие на обработку персональных данных в соответствии с Политикой обработки и защиты ПД и Согласием на обработку ПД</span>
                   </label>
                   <label className="ol-check">
                     <input type="checkbox" checked={checks.promo} onChange={(e)=>setChecks({...checks,promo:e.target.checked})}/>
-                    <span>Я согласен(а) на получение рекламной рассылки</span>
+                    <span>Я даю согласие на получение рекламной и информационной рассылки</span>
                   </label>
                 </div>
                 <button type="submit" className="ol-fsub" disabled={!form.name||!form.phone||!checks.privacy||!checks.personal}>Отправить заявку →</button>
