@@ -116,7 +116,7 @@ function Pain() {
         <div className="ol-pain__grid">
           <div className="ol-reveal" style={{display:"flex",flexDirection:"column",gap:"var(--s6)"}}>
             <span className="ol-tag">Узнаёшь себя?</span>
-            <h2 className="ol-pain__head">Ты живёшь <em>правильно</em>,<br/>но не чувствуешь счастья?</h2>
+            <h2 className="ol-pain__head">Ты живёшь <em>правильно</em><em>,</em><br/>но не чувствуешь счастья?</h2>
             <p style={{color:"var(--color-muted)",fontSize:"var(--text-base)",lineHeight:1.7}}>Это не значит, что с тобой что-то не так. Это точка, где реальная трансформация не только возможна – она необходима.</p>
             <ul className="ol-pain__list">
               {["Отношения стали «удобными», но не живыми","Отдаёшь всё – семье, работе, всем – а для себя ничего","Раздражение, усталость, ощущение «всё не то»","Хочешь близости – получается дистанция","Снаружи – всё хорошо. Внутри – пустота","Боишься, что лучшие годы уже позади"].map((t) => (
