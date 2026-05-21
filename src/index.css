@@ -252,6 +252,10 @@
 .ol-nav__links a:hover {
   color: var(--color-primary);
 }
+.ol-nav__links .ol-btn-main,
+.ol-nav__links .ol-btn-main:hover {
+  color: #ffffff !important;
+}
 .ol-nav__burger {
   display: none;
   flex-direction: column;
