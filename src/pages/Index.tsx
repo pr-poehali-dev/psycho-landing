@@ -209,7 +209,7 @@ function Funnel() {
             <a href="#booking" className="ol-btn-soft" style={{marginTop:"var(--s2)",width:"100%"}}>Получить сборник</a>
           </div>
         </div>
-        <div className="ol-funnel__arrow ol-reveal"><span className="ol-funnel__arrow-line"/><span>Следующий шаг</span><span className="ol-funnel__arrow-line"/></div>
+
         <div className="ol-funnel__deep">
           <div className="ol-f-card ol-reveal">
             <div className="ol-f-step">2</div>
