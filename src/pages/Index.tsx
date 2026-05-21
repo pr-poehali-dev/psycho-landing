@@ -168,11 +168,7 @@ function About() {
                 <div key={f} className="ol-about__fact">{check}{f}</div>
               ))}
             </div>
-            <div className="ol-about__creds ol-reveal ol-d4">
-              {["Клинический психолог","МАК-терапевт","Стихотерапевт","Системная терапия"].map((c) => (
-                <span key={c} className="ol-cred">{c}</span>
-              ))}
-            </div>
+
           </div>
         </div>
       </div>
