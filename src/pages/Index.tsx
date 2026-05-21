@@ -135,7 +135,7 @@ function Pain() {
             </div>
             <div style={{display:"flex",alignItems:"center",gap:"var(--s3)",paddingTop:"var(--s4)",borderTop:"1px solid var(--color-divider)"}}>
               <span style={{color:"var(--color-gold)"}}>★★★★★</span>
-              <span style={{fontSize:"var(--text-xs)",color:"var(--color-muted)"}}>300+ клиенток прошли трансформацию</span>
+              <span style={{fontSize:"var(--text-xs)",color:"var(--color-muted)"}}>300+ клиентов прошли трансформацию</span>
             </div>
           </div>
         </div>
