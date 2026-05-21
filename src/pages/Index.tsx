@@ -241,16 +241,7 @@ function Funnel() {
             </div>
             <p className="ol-f-hook">Один честный разговор с собой меняет больше, чем годы молчания.</p>
           </div>
-          <div className="ol-f-card ol-reveal ol-d1">
-            <div className="ol-f-step">3</div>
-            <div className="ol-f-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg></div>
-            <h3 className="ol-f-title">«Сессия глубины»</h3>
-            <p className="ol-f-desc">Один час 20 минут — и ты не просто поговоришь. Ты сдвинешься. Это результат индивидуальной работы в твою глубину, а не на поверхности.</p>
-            <div style={{display:"flex",flexDirection:"column",gap:"var(--s2)",marginTop:"var(--s1)"}}>
-              {["80 минут глубокой работы","Авторский метод + МАК","Персональное стихотворение"].map((c) => <div key={c} className="ol-f-check"><strong>✓</strong>{c}</div>)}
-            </div>
-            <p className="ol-f-hook">Клиентки говорят: «После сессии что-то щёлкнуло и встало на место».</p>
-          </div>
+
         </div>
         <div className="ol-funnel__arrow ol-reveal"><span className="ol-funnel__arrow-line"/><span>Самый мощный формат</span><span className="ol-funnel__arrow-line"/></div>
         <div className="ol-f-card ol-f-card--group ol-reveal">
