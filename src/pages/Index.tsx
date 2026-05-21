@@ -229,7 +229,7 @@ function Funnel() {
             <span className="ol-f-badge ol-f-badge--popular">Рекомендую</span>
             <div className="ol-f-step">4</div>
             <div className="ol-f-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
-            <h3 className="ol-f-title">«Круг живых женщин» <em>(Живая Я)</em></h3>
+            <h3 className="ol-f-title">Терапевтическая группа <em>"Живая Я"</em></h3>
             <p className="ol-f-desc" style={{marginTop:"var(--s2)"}}>Иногда нам нужно не только быть услышанной психологом — нам нужно увидеть себя в других женщинах. 6–8 человек. 8 недель. Закрытый круг. <strong style={{color:"var(--color-gold)"}}>«То что происходит внутри — остаётся внутри».</strong></p>
             <div style={{display:"flex",flexDirection:"column",gap:"var(--s2)",marginTop:"var(--s4)"}}>
               {["6–8 женщин в группе","8 недель еженедельных встреч","Абсолютная конфиденциальность","Поддержка в закрытом чате"].map((c) => <div key={c} className="ol-f-check"><strong style={{color:"var(--color-gold)"}}>✓</strong>{c}</div>)}
@@ -239,7 +239,7 @@ function Funnel() {
           </div>
           <div className="ol-group__cost-breakdown">
             <div className="ol-group__cost-line">22 000 ₽ за 8 недель — это<br/><strong>2 750 ₽ в неделю.</strong></div>
-            <div className="ol-group__cost-line" style={{fontSize:"var(--text-xs)"}}>Меньше, чем поход в ресторан с человеком, которого ты уже не можешь терпеть.</div>
+            <div className="ol-group__cost-line" style={{fontSize:"var(--text-xs)"}}>Меньше, чем поход в ресторан.</div>
             <div style={{marginTop:"var(--s4)"}}>
               <a href="#booking" className="ol-btn-main" style={{background:"var(--color-gold)",boxShadow:"0 4px 20px rgba(196,149,106,.40)",width:"100%"}}>Записаться в Круг</a>
             </div>
