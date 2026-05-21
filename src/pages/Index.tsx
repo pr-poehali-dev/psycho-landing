@@ -79,9 +79,7 @@ function Hero() {
         <p className="ol-hero__sub ol-reveal ol-d2">Если живёшь «правильно», но внутри – пустота. Если рядом человек, а ты – одинока. Начни с честного разговора.</p>
         <div className="ol-hero__btns ol-reveal ol-d3">
           <a href="#booking" className="ol-btn-main ol-pulse-ring">Разговор по существу – бесплатно</a>
-          <a href="#sbornik" className="ol-btn-soft">Сборник «СД» – 1 500 ₽</a>
         </div>
-        <p className="ol-hero__free-note ol-reveal ol-d3"><strong>«Разговор по существу»</strong> – 15 мин. аудио-созвон. Бесплатно.</p>
         <div className="ol-hero__stats ol-reveal ol-d4">
           <div><div className="ol-hero__stat-num">300+</div><div className="ol-hero__stat-txt">клиенток</div></div>
           <div><div className="ol-hero__stat-num">30 лет</div><div className="ol-hero__stat-txt">в браке</div></div>
