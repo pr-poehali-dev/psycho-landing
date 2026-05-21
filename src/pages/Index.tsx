@@ -266,8 +266,7 @@ function Testimonials() {
       <div className="ol-wrap">
         <div className="ol-testis__head">
           <span className="ol-tag ol-reveal">Отзывы</span>
-          <h2 className="ol-testis__h2 ol-reveal ol-d1">Что говорят клиентки</h2>
-          <p style={{color:"var(--color-muted)",fontSize:"var(--text-base)",textAlign:"center"}} className="ol-reveal ol-d2">Реальные истории. Имена изменены с разрешения клиенток.</p>
+          <h2 className="ol-testis__h2 ol-reveal ol-d1">Что говорят клиенты</h2>
         </div>
         <div className="ol-testis__grid">
           {reviews.map((r) => (
