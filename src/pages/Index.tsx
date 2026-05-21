@@ -73,15 +73,15 @@ function Hero() {
         <h1 className="ol-hero__h1 ol-reveal ol-d1">
           Я не спасаю браки.<br/>
           Я возвращаю<br/>
-          <em>женщин к себе</em> —<br/>
+          <em>женщин к себе</em> –<br/>
           и браки оживают сами.
         </h1>
-        <p className="ol-hero__sub ol-reveal ol-d2">Если живёшь «правильно», но внутри — пустота. Если рядом человек, а ты — одинока. Начни с честного разговора.</p>
+        <p className="ol-hero__sub ol-reveal ol-d2">Если живёшь «правильно», но внутри – пустота. Если рядом человек, а ты – одинока. Начни с честного разговора.</p>
         <div className="ol-hero__btns ol-reveal ol-d3">
-          <a href="#booking" className="ol-btn-main ol-pulse-ring">Разговор по существу — бесплатно</a>
-          <a href="#sbornik" className="ol-btn-soft">Сборник «СД» — 1 500 ₽</a>
+          <a href="#booking" className="ol-btn-main ol-pulse-ring">Разговор по существу – бесплатно</a>
+          <a href="#sbornik" className="ol-btn-soft">Сборник «СД» – 1 500 ₽</a>
         </div>
-        <p className="ol-hero__free-note ol-reveal ol-d3"><strong>«Разговор по существу»</strong> — 15 мин. аудио-созвон. Бесплатно.</p>
+        <p className="ol-hero__free-note ol-reveal ol-d3"><strong>«Разговор по существу»</strong> – 15 мин. аудио-созвон. Бесплатно.</p>
         <div className="ol-hero__stats ol-reveal ol-d4">
           <div><div className="ol-hero__stat-num">300+</div><div className="ol-hero__stat-txt">клиенток</div></div>
           <div><div className="ol-hero__stat-num">30 лет</div><div className="ol-hero__stat-txt">в браке</div></div>
@@ -134,9 +134,9 @@ function Pain() {
           <div className="ol-reveal" style={{display:"flex",flexDirection:"column",gap:"var(--s6)"}}>
             <span className="ol-tag">Узнаёшь себя?</span>
             <h2 className="ol-pain__head">Ты живёшь <em>правильно</em>,<br/>но не чувствуешь счастья?</h2>
-            <p style={{color:"var(--color-muted)",fontSize:"var(--text-base)",lineHeight:1.7}}>Это не значит, что с тобой что-то не так. Это точка, где реальная трансформация не только возможна — она необходима.</p>
+            <p style={{color:"var(--color-muted)",fontSize:"var(--text-base)",lineHeight:1.7}}>Это не значит, что с тобой что-то не так. Это точка, где реальная трансформация не только возможна – она необходима.</p>
             <ul className="ol-pain__list">
-              {["Отношения стали «удобными», но не живыми","Отдаёшь всё — семье, работе, всем — а для себя ничего","Раздражение, усталость, ощущение «всё не то»","Хочешь близости — получается дистанция","Снаружи — всё хорошо. Внутри — пустота","Боишься, что лучшие годы уже позади"].map((t) => (
+              {["Отношения стали «удобными», но не живыми","Отдаёшь всё – семье, работе, всем – а для себя ничего","Раздражение, усталость, ощущение «всё не то»","Хочешь близости – получается дистанция","Снаружи – всё хорошо. Внутри – пустота","Боишься, что лучшие годы уже позади"].map((t) => (
                 <li key={t} className="ol-pain__item"><span className="ol-pain__dot"/>{t}</li>
               ))}
             </ul>
@@ -144,7 +144,7 @@ function Pain() {
           </div>
           <div className="ol-pain__quote-box ol-reveal ol-d2">
             <span className="ol-tag">Личный опыт</span>
-            <p className="ol-pain__quote">«Я сама прошла через это. Тридцать лет брака, трое детей, карьера, внешнее благополучие — и внутри вопрос: "Где я сама в этой жизни?" Именно этот путь к себе я помогаю пройти своим клиенткам.»</p>
+            <p className="ol-pain__quote">«Я сама прошла через это. Тридцать лет брака, трое детей, карьера, внешнее благополучие – и внутри вопрос: "Где я сама в этой жизни?" Именно этот путь к себе я помогаю пройти своим клиенткам.»</p>
             <div>
               <div className="ol-pain__qa">— Оксана Литвиненко</div>
               <div style={{fontSize:"var(--text-xs)",color:"var(--color-faint)",marginTop:4}}>Психолог · Стихотерапевт · Владивосток</div>
