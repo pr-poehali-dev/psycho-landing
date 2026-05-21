@@ -110,7 +110,7 @@
   font-family: var(--font-body);
   font-size: var(--text-sm);
   font-weight: 700;
-  color: var(--color-inverse);
+  color: #ffffff;
   background: var(--color-primary);
   padding: var(--s3) var(--s8);
   border-radius: var(--r-full);
