@@ -223,7 +223,7 @@ function Funnel() {
           </div>
 
         </div>
-        <div className="ol-funnel__arrow ol-reveal"><span className="ol-funnel__arrow-line"/><span>Самый мощный формат</span><span className="ol-funnel__arrow-line"/></div>
+
         <div className="ol-f-card ol-f-card--group ol-reveal">
           <div>
             <span className="ol-f-badge ol-f-badge--popular">Рекомендую</span>
