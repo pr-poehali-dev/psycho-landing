@@ -100,23 +100,8 @@ function TrustBar() {
       <div className="ol-wrap">
         <div className="ol-tbar__in">
           <div className="ol-tbar__item">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{width:18,height:18,color:"var(--color-gold)"}}><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-            Психолог-трансформолог
-          </div>
-          <div className="ol-tbar__sep"/>
-          <div className="ol-tbar__item">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{width:18,height:18,color:"var(--color-gold)"}}><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
-            Стихотерапевт
-          </div>
-          <div className="ol-tbar__sep"/>
-          <div className="ol-tbar__item">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{width:18,height:18,color:"var(--color-gold)"}}><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
-            МАК-терапевт
-          </div>
-          <div className="ol-tbar__sep"/>
-          <div className="ol-tbar__item">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{width:18,height:18,color:"var(--color-gold)"}}><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-            Онлайн по всей России
+            Онлайн по всему миру
           </div>
         </div>
       </div>
