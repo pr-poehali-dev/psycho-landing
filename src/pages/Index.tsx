@@ -250,29 +250,7 @@ function Funnel() {
   );
 }
 
-function Poetry() {
-  return (
-    <section className="ol-poetry" id="poetry">
-      <div className="ol-wrap">
-        <div className="ol-poetry__in">
-          <img src={POETRY_IMG} alt="Стихотерапия" className="ol-poetry__img ol-reveal" width={600} height={450} loading="lazy"/>
-          <div className="ol-poetry__content ol-reveal ol-d1">
-            <span className="ol-tag">Стихотерапия</span>
-            <h2 className="ol-poetry__h2">Слово, которое<br/>меняет изнутри</h2>
-            <blockquote className="ol-poetry__verse">
-              Ты устала быть сильной,<br/>
-              улыбаться, держать.<br/>
-              Я скажу тебе тихо:<br/>
-              можно просто — дышать.
-            </blockquote>
-            <p className="ol-poetry__body">Авторские стихи Оксаны — это терапевтический инструмент, написанный специально для твоей ситуации. Слово, точно попавшее в боль, лечит её быстрее любого анализа. Именно это лежит в основе сборника «Собеседница Души».</p>
-            <a href="#sbornik" className="ol-btn-soft" style={{width:"fit-content"}}>Получить сборник — 1 500 ₽</a>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
+
 
 function Testimonials() {
   const reviews = [
@@ -468,7 +446,6 @@ export default function Index() {
       <Pain/>
       <About/>
       <Funnel/>
-      <Poetry/>
       <Testimonials/>
       <FAQ/>
       <Booking/>
