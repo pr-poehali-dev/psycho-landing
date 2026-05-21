@@ -327,7 +327,7 @@ function Booking() {
           <div className="ol-booking__left ol-reveal">
             <span className="ol-tag" style={{background:"rgba(196,149,106,.18)",color:"var(--color-gold)"}}>Записаться</span>
             <h2 className="ol-booking__h2">Сделай первый шаг<br/>к <em>себе настоящей</em></h2>
-            <p className="ol-booking__body">Заполни форму — и в течение 24 часов я свяжусь с тобой, чтобы обсудить твой запрос. Начать можно прямо сейчас — с бесплатного разговора по существу.</p>
+
 
           </div>
           <div className="ol-reveal ol-d2">
