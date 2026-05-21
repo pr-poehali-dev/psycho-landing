@@ -183,7 +183,7 @@ function Funnel() {
         <div className="ol-funnel__head">
           <span className="ol-tag ol-reveal">Путь к себе</span>
           <h2 className="ol-funnel__h2 ol-reveal ol-d1">Выбери свой шаг</h2>
-          <p className="ol-funnel__sub ol-reveal ol-d2">Каждый шаг ведёт глубже. Начни с того, что откликается прямо сейчас.</p>
+          <p className="ol-funnel__sub ol-reveal ol-d2">Начни с того, что откликается прямо сейчас.</p>
         </div>
         <div className="ol-funnel__entry">
           <div className="ol-f-card ol-reveal" id="razgovor">
