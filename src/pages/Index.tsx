@@ -44,7 +44,7 @@ function Nav() {
             <a href="#about">Обо мне</a>
             <a href="#funnel">Программы</a>
             <a href="#testimonials">Отзывы</a>
-            <a href="#booking" className="ol-nav__d ol-btn-main" style={{fontSize:"var(--text-xs)",padding:"var(--s2) var(--s5)"}}>Записаться</a>
+            <a href="#booking" className="ol-nav__d ol-btn-main ol-btn-nav">Записаться</a>
           </div>
           <button className="ol-nav__burger" onClick={() => setOpen(!open)} aria-label="Меню" aria-expanded={open}>
             <span/><span/><span/>
