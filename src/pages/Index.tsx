@@ -123,6 +123,7 @@ function Pain() {
                 <li key={t} className="ol-pain__item"><span className="ol-pain__dot"/>{t}</li>
               ))}
             </ul>
+            <span className="ol-tag" style={{width:"fit-content"}}>Узнаёшь себя?</span>
             <a href="#booking" className="ol-btn-main" style={{width:"fit-content",marginTop:"var(--s2)"}}>Записаться на разговор →</a>
           </div>
           <div className="ol-pain__quote-box ol-reveal ol-d2">
