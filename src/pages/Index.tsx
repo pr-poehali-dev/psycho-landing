@@ -241,7 +241,7 @@ function Funnel() {
             <div className="ol-group__cost-line">22 000 ₽ за 8 недель — это<br/><strong>2 750 ₽ в неделю.</strong></div>
             <div className="ol-group__cost-line" style={{fontSize:"var(--text-xs)"}}>Меньше, чем поход в ресторан.</div>
             <div style={{marginTop:"var(--s4)"}}>
-              <a href="#booking" className="ol-btn-main" style={{background:"var(--color-gold)",boxShadow:"0 4px 20px rgba(196,149,106,.40)",width:"100%"}}>Записаться в Круг</a>
+              <a href="#booking" className="ol-btn-main" style={{background:"var(--color-gold)",boxShadow:"0 4px 20px rgba(196,149,106,.40)",width:"100%"}}>Записаться</a>
             </div>
           </div>
         </div>
