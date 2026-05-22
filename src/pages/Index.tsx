@@ -465,6 +465,55 @@ function Footer() {
 
 
 
+function GiftWidget() {
+  const [visible, setVisible] = useState(false);
+  const [closed, setClosed] = useState(false);
+
+  useEffect(() => {
+    const t = setTimeout(() => setVisible(true), 60000);
+    return () => clearTimeout(t);
+  }, []);
+
+  if (closed) return null;
+
+  return (
+    <>
+      <style>{`
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&display=swap');
+        .gift-widget{position:fixed;right:18px;bottom:18px;z-index:9999;width:min(340px,calc(100vw - 24px));display:flex;align-items:center;gap:14px;padding:16px 18px;background:linear-gradient(145deg,#fbf5f1 0%,#f4e8e0 100%);border:1px solid rgba(166,129,111,.16);border-radius:22px;box-shadow:0 14px 34px rgba(124,92,73,.12);color:#4d392f;opacity:0;visibility:hidden;transform:translateY(16px) scale(.98);transition:opacity .55s ease,transform .55s ease,visibility .55s ease,box-shadow .3s ease;overflow:hidden;}
+        .gift-widget.is-visible{opacity:1;visibility:visible;transform:translateY(0) scale(1);animation:giftSoftGlow 3.2s ease-in-out infinite;}
+        .gift-widget:hover{box-shadow:0 18px 40px rgba(124,92,73,.16);transform:translateY(-2px);}
+        .gift-widget::after{content:"";position:absolute;inset:0;background:linear-gradient(120deg,transparent 0%,transparent 42%,rgba(255,255,255,.34) 50%,transparent 58%,transparent 100%);transform:translateX(-150%);animation:giftShimmer 5.8s linear infinite;pointer-events:none;}
+        .gift-widget__icon{flex:0 0 54px;width:54px;height:54px;border-radius:18px;background:linear-gradient(145deg,#dfb9ac 0%,#cfa08f 100%);display:grid;place-items:center;box-shadow:inset 0 1px 0 rgba(255,255,255,.45),0 6px 14px rgba(188,140,120,.18);}
+        .gift-widget__icon svg{width:28px;height:28px;stroke:#fffaf7;}
+        .gift-widget__text{min-width:0;padding-right:14px;}
+        .gift-widget__title{margin:0;font-family:"Cormorant Garamond",serif;font-size:24px;line-height:1.08;font-weight:600;color:#543d33;}
+        .gift-widget__close{position:absolute;top:10px;right:10px;width:28px;height:28px;border:0;border-radius:999px;background:rgba(255,255,255,.55);color:#8a6758;cursor:pointer;font-size:16px;line-height:1;display:grid;place-items:center;transition:background .25s ease,transform .25s ease;}
+        .gift-widget__close:hover{background:rgba(255,255,255,.82);transform:scale(1.05);}
+        @keyframes giftSoftGlow{0%,100%{box-shadow:0 14px 34px rgba(124,92,73,.12);}50%{box-shadow:0 16px 38px rgba(207,160,143,.24);}}
+        @keyframes giftShimmer{0%{transform:translateX(-150%);}100%{transform:translateX(150%);}}
+        @media(max-width:640px){.gift-widget{right:12px;bottom:12px;width:calc(100vw - 24px);padding:14px;gap:12px;border-radius:18px;}.gift-widget__icon{width:48px;height:48px;flex-basis:48px;border-radius:16px;}.gift-widget__title{font-size:21px;}}
+        @media(prefers-reduced-motion:reduce){.gift-widget,.gift-widget::after,.gift-widget.is-visible{animation:none!important;transition:none!important;}}
+      `}</style>
+      <div className={`gift-widget${visible ? " is-visible" : ""}`} aria-label="Персональный подарок">
+        <div className="gift-widget__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-7"/>
+            <path d="M2 7h20v5H2z"/>
+            <path d="M12 22V7"/>
+            <path d="M12 7H7.5a2.5 2.5 0 1 1 0-5C10 2 12 7 12 7z"/>
+            <path d="M12 7h4.5a2.5 2.5 0 1 0 0-5C14 2 12 7 12 7z"/>
+          </svg>
+        </div>
+        <div className="gift-widget__text">
+          <p className="gift-widget__title">Твой персональный подарок «Начало»</p>
+        </div>
+        <button className="gift-widget__close" type="button" aria-label="Закрыть" onClick={() => setClosed(true)}>×</button>
+      </div>
+    </>
+  );
+}
+
 export default function Index() {
   useReveal();
   return (
@@ -479,12 +528,12 @@ export default function Index() {
       <FAQ/>
       <Booking/>
       <Footer/>
-      {/* Floating buttons */}
       <div className="ol-float">
         <a href="https://t.me/oksana_litvinenko_psy" target="_blank" rel="noopener noreferrer" className="ol-float__tg" aria-label="Telegram">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
         </a>
       </div>
+      <GiftWidget/>
     </>
   );
 }
