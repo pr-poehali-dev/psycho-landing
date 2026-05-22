@@ -256,7 +256,7 @@ function Funnel() {
 
         </div>
 
-        <div className="ol-f-card ol-f-card--group ol-reveal">
+        <div id="zhivaya-ya" className="ol-f-card ol-f-card--group ol-reveal">
           <div>
             <span className="ol-f-badge ol-f-badge--popular">Рекомендую</span>
             <div className="ol-f-step">4</div>
@@ -452,7 +452,7 @@ function Footer() {
               <a href="#razgovor">Разговор по существу</a>
               <a href="#sbornik">«Собеседница Души»</a>
               <a href="#funnel">Точка сборки</a>
-              <a href="#funnel">Живая Я</a>
+              <a href="#zhivaya-ya">Живая Я</a>
             </nav>
           </div>
         </div>
