@@ -144,6 +144,38 @@ function Pain() {
   );
 }
 
+function MethodsAccordion() {
+  const [open, setOpen] = useState(false);
+  const methods = [
+    "Образно-эмоциональная терапия — проработка эмоций через образы",
+    "Расстановки — раскрываем скрытые семейные и личные сценарии",
+    "Трансперсональные техники — расширяем сознание и понимание себя",
+    "Энергопрактики — восстанавливаем внутренний баланс и уверенность",
+    "Психоаналитический подход — разбираемся в глубинных причинах",
+    "Коучинговые техники — поддержка и мотивация для изменений",
+    "Проективные методы (стихотерапия, МАК-карты) — раскрываем внутренние ресурсы",
+    "Метод Принятия правды — помогаю принять настоящую правду о себе и освободиться от блоков",
+  ];
+  return (
+    <div className="ol-accordion ol-reveal ol-d4">
+      <button className="ol-accordion__btn" onClick={() => setOpen(!open)} aria-expanded={open}>
+        <span>Мои методы работы</span>
+        <svg className={`ol-accordion__arrow${open ? " ol-accordion__arrow--open" : ""}`} width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+      </button>
+      <div className={`ol-accordion__body${open ? " ol-accordion__body--open" : ""}`}>
+        <div className="ol-accordion__inner">
+          {methods.map((m) => (
+            <div key={m} className="ol-accordion__item">
+              <span className="ol-accordion__dot">🔹</span>
+              <span>{m}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function About() {
   const check = <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><polyline points="20 6 9 17 4 12"/></svg>;
   return (
@@ -168,7 +200,7 @@ function About() {
                 <div key={f} className="ol-about__fact">{check}{f}</div>
               ))}
             </div>
-
+            <MethodsAccordion />
           </div>
         </div>
       </div>
