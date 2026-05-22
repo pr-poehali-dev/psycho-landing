@@ -251,7 +251,10 @@ function Funnel() {
             <div style={{display:"flex",flexDirection:"column",gap:"var(--s2)",marginTop:"var(--s1)"}}>
               {["50 минут — только суть","Ищем корень, не симптом","Конкретный план действий"].map((c) => <div key={c} className="ol-f-check"><strong>✓</strong>{c}</div>)}
             </div>
+            <div className="ol-f-price">5 000 ₽</div>
+            <div className="ol-f-price-note">50 мин · Онлайн-сессия</div>
             <p className="ol-f-hook">Один честный разговор с собой меняет больше, чем годы молчания.</p>
+            <a href="#booking" className="ol-btn-main" style={{marginTop:"var(--s2)",width:"100%"}}>Записаться</a>
           </div>
 
         </div>
