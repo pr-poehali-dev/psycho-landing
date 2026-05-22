@@ -433,7 +433,7 @@ function Footer() {
             <div className="ol-footer__social">
 
               <a href="https://t.me/oksana_litvinenko_psy" target="_blank" rel="noopener noreferrer" aria-label="Telegram">TG</a>
-              <a href="https://vk.com/litvinenko_oksana" target="_blank" rel="noopener noreferrer" aria-label="ВКонтакте">ВК</a>
+              <a href="https://max.ru/u/f9LHodD0cOKM8caple5Ls-ezY4S_TzIUnl3J-Ca_fCovS1g4T47_lRpvy2w" target="_blank" rel="noopener noreferrer" aria-label="Max">Max</a>
             </div>
           </div>
           <div>
