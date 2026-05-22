@@ -484,7 +484,7 @@ function GiftWidget() {
         .gift-widget.is-visible{opacity:1;visibility:visible;transform:translateY(0) scale(1);animation:giftSoftGlow 3.2s ease-in-out infinite;}
         .gift-widget:hover{box-shadow:0 18px 40px rgba(124,92,73,.16);transform:translateY(-2px);}
         .gift-widget::after{content:"";position:absolute;inset:0;background:linear-gradient(120deg,transparent 0%,transparent 42%,rgba(255,255,255,.34) 50%,transparent 58%,transparent 100%);transform:translateX(-150%);animation:giftShimmer 5.8s linear infinite;pointer-events:none;}
-        .gift-widget__icon{flex:0 0 54px;width:54px;height:54px;border-radius:18px;background:linear-gradient(145deg,#e8c4b5 0%,#d4a98e 100%);display:grid;place-items:center;box-shadow:inset 0 1px 0 rgba(255,255,255,.45),0 6px 14px rgba(188,140,120,.18);}
+        .gift-widget__icon{flex:0 0 54px;width:54px;height:54px;border-radius:18px;background:linear-gradient(145deg,#e8805a 0%,#c9562e 100%);display:grid;place-items:center;box-shadow:inset 0 1px 0 rgba(255,255,255,.45),0 6px 14px rgba(188,140,120,.18);}
         .gift-widget__icon svg{width:28px;height:28px;stroke:#fffaf7;}
         .gift-widget__text{min-width:0;padding-right:14px;}
         .gift-widget__title{margin:0;font-family:"Cormorant Garamond",serif;font-size:24px;line-height:1.08;font-weight:600;color:#543d33;}
