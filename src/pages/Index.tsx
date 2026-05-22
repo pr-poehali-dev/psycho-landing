@@ -450,9 +450,9 @@ function Footer() {
             <div className="ol-footer__col-t">Программы</div>
             <nav className="ol-footer__nav">
               <a href="#razgovor">Разговор по существу</a>
-              <a href="#sbornik">Сборник «СД»</a>
+              <a href="#sbornik">«Собеседница Души»</a>
               <a href="#funnel">Точка сборки</a>
-              <a href="#funnel">Круг живых женщин</a>
+              <a href="#funnel">Живая Я</a>
             </nav>
           </div>
         </div>
