@@ -247,9 +247,9 @@ function Funnel() {
             <div className="ol-f-step">2</div>
             <div className="ol-f-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg></div>
             <h3 className="ol-f-title">«Точка сборки»</h3>
-            <p className="ol-f-desc">За 45 минут мы найдём корень — не симптом. Ты уйдёшь с ясным пониманием: что происходит, почему это повторяется и что с этим делать.</p>
+            <p className="ol-f-desc">За 50 минут мы найдём корень — не симптом. Ты уйдёшь с ясным пониманием: что происходит, почему это повторяется и что с этим делать.</p>
             <div style={{display:"flex",flexDirection:"column",gap:"var(--s2)",marginTop:"var(--s1)"}}>
-              {["45 минут — только суть","Ищем корень, не симптом","Конкретный план действий"].map((c) => <div key={c} className="ol-f-check"><strong>✓</strong>{c}</div>)}
+              {["50 минут — только суть","Ищем корень, не симптом","Конкретный план действий"].map((c) => <div key={c} className="ol-f-check"><strong>✓</strong>{c}</div>)}
             </div>
             <p className="ol-f-hook">Один честный разговор с собой меняет больше, чем годы молчания.</p>
           </div>
