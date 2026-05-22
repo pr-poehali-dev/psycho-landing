@@ -391,8 +391,7 @@ function Booking() {
                     <option value="">Выбрать…</option>
                     <option value="free">«Разговор по существу» — 15 мин, бесплатно</option>
                     <option value="sbornik">Сборник «Собеседница Души» — 1 500 ₽</option>
-                    <option value="tochka">«Точка сборки» — 45 мин сессия</option>
-                    <option value="glubina">«Сессия глубины» — 80 мин</option>
+                    <option value="tochka">«Точка сборки» — 50 мин сессия</option>
                     <option value="krug">«Круг живых женщин» — 8 недель, 22 000 ₽</option>
                     <option value="help">Помоги мне выбрать</option>
                   </select>
