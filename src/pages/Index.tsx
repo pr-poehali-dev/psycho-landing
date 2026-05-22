@@ -268,7 +268,7 @@ function Funnel() {
             <p className="ol-f-desc" style={{marginTop:"var(--s2)"}}>Иногда нам нужно не только быть услышанной психологом — нам нужно увидеть себя в других женщинах. 6–8 человек. 8 недель. Закрытый круг. <strong style={{color:"var(--color-gold)"}}>«То что происходит внутри — остаётся внутри».</strong></p>
             <p style={{marginTop:"var(--s3)",fontSize:"var(--text-sm)",color:"var(--color-primary)",fontWeight:600}}>📅 Ближайший старт — сентябрь 2026</p>
             <div style={{display:"flex",flexDirection:"column",gap:"var(--s2)",marginTop:"var(--s4)"}}>
-              {["6–8 женщин в группе","8 недель еженедельных встреч","Абсолютная конфиденциальность","Поддержка в закрытом чате"].map((c) => <div key={c} className="ol-f-check"><strong style={{color:"var(--color-gold)"}}>✓</strong>{c}</div>)}
+              {["6–8 женщин в группе","8 недель еженедельных встреч","Поддержка в закрытом чате"].map((c) => <div key={c} className="ol-f-check"><strong style={{color:"var(--color-gold)"}}>✓</strong>{c}</div>)}
             </div>
             <div className="ol-f-price" style={{marginTop:"var(--s5)"}}>22 000 ₽</div>
             <div className="ol-f-price-note">8 недель</div>
