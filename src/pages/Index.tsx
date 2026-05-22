@@ -220,7 +220,7 @@ function Funnel() {
         <div className="ol-funnel__entry">
           <div className="ol-f-card ol-reveal" id="razgovor">
             <span className="ol-f-badge ol-f-badge--free">Бесплатно</span>
-            <div className="ol-f-step">1А</div>
+
             <div className="ol-f-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.61 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.29 6.29l.95-.86a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
             <h3 className="ol-f-title">«Разговор по существу»</h3>
             <p className="ol-f-desc">15 минут честного разговора, без воды — и ты заберёшь первый шаг для выхода из твоей ситуации. Никаких продаж. Только суть.</p>
@@ -231,7 +231,7 @@ function Funnel() {
           </div>
           <div className="ol-f-card ol-reveal ol-d1" id="sbornik">
             <span className="ol-f-badge">1 500 ₽</span>
-            <div className="ol-f-step">1Б</div>
+
             <div className="ol-f-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg></div>
             <h3 className="ol-f-title">Сборник <em>«Собеседница Души»</em></h3>
             <p className="ol-f-desc">Если пока не готова говорить с психологом — начни говорить с собой. Сборник делает это мягко, без давления — через стихи и упражнения, которые я писала для себя в самые трудные моменты.</p>
@@ -244,7 +244,7 @@ function Funnel() {
 
         <div className="ol-funnel__deep">
           <div className="ol-f-card ol-reveal">
-            <div className="ol-f-step">2</div>
+
             <div className="ol-f-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg></div>
             <h3 className="ol-f-title">«Точка сборки»</h3>
             <p className="ol-f-desc">За 50 минут мы найдём корень — не симптом. Ты уйдёшь с ясным пониманием: что происходит, почему это повторяется и что с этим делать.</p>
@@ -259,7 +259,7 @@ function Funnel() {
         <div id="zhivaya-ya" className="ol-f-card ol-f-card--group ol-reveal">
           <div>
             <span className="ol-f-badge ol-f-badge--popular">Рекомендую</span>
-            <div className="ol-f-step">4</div>
+
             <div className="ol-f-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
             <h3 className="ol-f-title">Терапевтическая группа <em>"Живая Я"</em></h3>
             <p className="ol-f-desc" style={{marginTop:"var(--s2)"}}>Иногда нам нужно не только быть услышанной психологом — нам нужно увидеть себя в других женщинах. 6–8 человек. 8 недель. Закрытый круг. <strong style={{color:"var(--color-gold)"}}>«То что происходит внутри — остаётся внутри».</strong></p>
