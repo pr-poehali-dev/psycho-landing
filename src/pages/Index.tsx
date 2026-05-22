@@ -495,7 +495,7 @@ function GiftWidget() {
         @media(max-width:640px){.gift-widget{right:12px;bottom:12px;width:calc(100vw - 24px);padding:14px;gap:12px;border-radius:18px;}.gift-widget__icon{width:48px;height:48px;flex-basis:48px;border-radius:16px;}.gift-widget__title{font-size:21px;}}
         @media(prefers-reduced-motion:reduce){.gift-widget,.gift-widget::after,.gift-widget.is-visible{animation:none!important;transition:none!important;}}
       `}</style>
-      <div className={`gift-widget${visible ? " is-visible" : ""}`} aria-label="Персональный подарок">
+      <a href="https://disk.yandex.ru/i/SX2NttAtvuNYcQ" target="_blank" rel="noopener noreferrer" className={`gift-widget${visible ? " is-visible" : ""}`} aria-label="Персональный подарок" style={{textDecoration:"none"}}>
         <div className="gift-widget__icon" aria-hidden="true">
           <svg viewBox="0 0 24 24" fill="none" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
             <path d="M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-7"/>
@@ -508,8 +508,8 @@ function GiftWidget() {
         <div className="gift-widget__text">
           <p className="gift-widget__title">Твой персональный подарок «Начало»</p>
         </div>
-        <button className="gift-widget__close" type="button" aria-label="Закрыть" onClick={() => setClosed(true)}>×</button>
-      </div>
+        <button className="gift-widget__close" type="button" aria-label="Закрыть" onClick={(e) => { e.preventDefault(); setClosed(true); }}>×</button>
+      </a>
     </>
   );
 }
