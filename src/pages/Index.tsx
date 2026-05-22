@@ -452,7 +452,6 @@ function Footer() {
               <a href="#razgovor">Разговор по существу</a>
               <a href="#sbornik">Сборник «СД»</a>
               <a href="#funnel">Точка сборки</a>
-              <a href="#funnel">Сессия глубины</a>
               <a href="#funnel">Круг живых женщин</a>
             </nav>
           </div>
