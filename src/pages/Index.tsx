@@ -44,7 +44,7 @@ function Nav() {
             <a href="#about">Обо мне</a>
             <a href="#funnel">Программы</a>
             <a href="#testimonials">Отзывы</a>
-            <a href="#booking" className="ol-nav__d ol-btn-main ol-btn-nav">Записаться</a>
+            <a href="https://max.ru/u/f9LHodD0cOKM8caple5Ls-ezY4S_TzIUnl3J-Ca_fCovS1g4T47_lRpvy2w" target="_blank" rel="noopener noreferrer" className="ol-nav__d ol-btn-main ol-btn-nav">Записаться</a>
           </div>
           <button className="ol-nav__burger" onClick={() => setOpen(!open)} aria-label="Меню" aria-expanded={open}>
             <span/><span/><span/>
@@ -56,7 +56,7 @@ function Nav() {
         <a href="#funnel" onClick={close}>Программы</a>
         <a href="#testimonials" onClick={close}>Отзывы</a>
         <a href="#faq" onClick={close}>FAQ</a>
-        <a href="#booking" onClick={close} style={{color:"var(--color-primary)"}}>Записаться →</a>
+        <a href="https://max.ru/u/f9LHodD0cOKM8caple5Ls-ezY4S_TzIUnl3J-Ca_fCovS1g4T47_lRpvy2w" target="_blank" rel="noopener noreferrer" onClick={close} style={{color:"var(--color-primary)"}}>Записаться →</a>
       </div>
     </>
   );
@@ -78,7 +78,7 @@ function Hero() {
         </h1>
         <p className="ol-hero__sub ol-reveal ol-d2">Если живёшь «правильно», но внутри – пустота. Если рядом человек, а ты – одинока. Начни с честного разговора.</p>
         <div className="ol-hero__btns ol-reveal ol-d3">
-          <a href="#booking" className="ol-btn-main ol-pulse-ring">Разговор по существу – бесплатно</a>
+          <a href="https://max.ru/u/f9LHodD0cOKM8caple5Ls-ezY4S_TzIUnl3J-Ca_fCovS1g4T47_lRpvy2w" target="_blank" rel="noopener noreferrer" className="ol-btn-main ol-pulse-ring">Разговор по существу – бесплатно</a>
         </div>
         <div className="ol-hero__stats ol-reveal ol-d4">
           <div><div className="ol-hero__stat-num">300+</div><div className="ol-hero__stat-txt">клиенток</div></div>
@@ -124,7 +124,7 @@ function Pain() {
               ))}
             </ul>
             <span className="ol-tag" style={{width:"fit-content"}}>Узнаёшь себя?</span>
-            <a href="#booking" className="ol-btn-main" style={{width:"fit-content",marginTop:"var(--s2)"}}>Записаться на разговор →</a>
+            <a href="https://max.ru/u/f9LHodD0cOKM8caple5Ls-ezY4S_TzIUnl3J-Ca_fCovS1g4T47_lRpvy2w" target="_blank" rel="noopener noreferrer" className="ol-btn-main" style={{width:"fit-content",marginTop:"var(--s2)"}}>Записаться на разговор →</a>
           </div>
           <div className="ol-pain__quote-box ol-reveal ol-d2">
             <span className="ol-tag">Личный опыт</span>
@@ -227,7 +227,7 @@ function Funnel() {
             <div className="ol-f-price">Бесплатно</div>
             <div className="ol-f-price-note">15 мин · Аудио-созвон</div>
             <p className="ol-f-hook">Это не «пробный урок» — это реальный разговор, после которого ты уйдёшь с конкретным шагом.</p>
-            <a href="#booking" className="ol-btn-main" style={{marginTop:"var(--s2)",width:"100%"}}>Записаться на разговор</a>
+            <a href="https://max.ru/u/f9LHodD0cOKM8caple5Ls-ezY4S_TzIUnl3J-Ca_fCovS1g4T47_lRpvy2w" target="_blank" rel="noopener noreferrer" className="ol-btn-main" style={{marginTop:"var(--s2)",width:"100%"}}>Записаться на разговор</a>
           </div>
           <div className="ol-f-card ol-reveal ol-d1" id="sbornik">
             <span className="ol-f-badge">1 500 ₽</span>
@@ -238,7 +238,7 @@ function Funnel() {
             <div className="ol-f-price">1 500 ₽</div>
             <div className="ol-f-price-note">Мгновенный доступ · PDF + аудио</div>
             <p className="ol-f-hook">Ты тратишь на кофе и маникюр больше, чем стоит начать слышать себя.</p>
-            <a href="#booking" className="ol-btn-soft" style={{marginTop:"var(--s2)",width:"100%"}}>Получить сборник</a>
+            <a href="https://max.ru/u/f9LHodD0cOKM8caple5Ls-ezY4S_TzIUnl3J-Ca_fCovS1g4T47_lRpvy2w" target="_blank" rel="noopener noreferrer" className="ol-btn-soft" style={{marginTop:"var(--s2)",width:"100%"}}>Получить сборник</a>
           </div>
         </div>
 
@@ -254,7 +254,7 @@ function Funnel() {
             <div className="ol-f-price">5 000 ₽</div>
             <div className="ol-f-price-note">50 мин · Онлайн-сессия</div>
             <p className="ol-f-hook">Один честный разговор с собой меняет больше, чем годы молчания.</p>
-            <a href="#booking" className="ol-btn-main" style={{marginTop:"var(--s2)",width:"100%"}}>Записаться</a>
+            <a href="https://max.ru/u/f9LHodD0cOKM8caple5Ls-ezY4S_TzIUnl3J-Ca_fCovS1g4T47_lRpvy2w" target="_blank" rel="noopener noreferrer" className="ol-btn-main" style={{marginTop:"var(--s2)",width:"100%"}}>Записаться</a>
           </div>
 
         </div>
@@ -277,7 +277,7 @@ function Funnel() {
             <div className="ol-group__cost-line">22 000 ₽ за 8 недель — это<br/><strong>2 750 ₽ в неделю.</strong></div>
             <div className="ol-group__cost-line" style={{fontSize:"var(--text-xs)"}}>Меньше, чем поход в ресторан.</div>
             <div style={{marginTop:"var(--s4)"}}>
-              <a href="#booking" className="ol-btn-main" style={{background:"var(--color-gold)",boxShadow:"0 4px 20px rgba(196,149,106,.40)",width:"100%"}}>Записаться</a>
+              <a href="https://max.ru/u/f9LHodD0cOKM8caple5Ls-ezY4S_TzIUnl3J-Ca_fCovS1g4T47_lRpvy2w" target="_blank" rel="noopener noreferrer" className="ol-btn-main" style={{background:"var(--color-gold)",boxShadow:"0 4px 20px rgba(196,149,106,.40)",width:"100%"}}>Записаться</a>
             </div>
           </div>
         </div>
