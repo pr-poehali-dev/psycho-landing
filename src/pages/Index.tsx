@@ -238,7 +238,7 @@ function Funnel() {
             <div className="ol-f-price">1 500 ₽</div>
             <div className="ol-f-price-note">Мгновенный доступ · PDF + аудио</div>
             <p className="ol-f-hook">Ты тратишь на кофе и маникюр больше, чем стоит начать слышать себя.</p>
-            <a href="https://disk.yandex.ru/i/iknvnGA7YvJAPw" target="_blank" rel="noopener noreferrer" className="ol-btn-soft" style={{marginTop:"var(--s2)",width:"100%"}}>Получить сборник</a>
+            <a href="https://disk.yandex.ru/i/GpPfanJVmP69iA" target="_blank" rel="noopener noreferrer" className="ol-btn-soft" style={{marginTop:"var(--s2)",width:"100%"}}>Получить сборник</a>
           </div>
         </div>
 
