@@ -406,12 +406,12 @@ function Booking() {
                     <span>Я принимаю условия <a href="https://disk.yandex.ru/i/0IjxtKFMqmAvXA" target="_blank" rel="noopener noreferrer" className="ol-check-link">Публичной оферты</a></span>
                   </label>
                   <label className="ol-check">
-                    <input type="checkbox" checked={checks.informed} onChange={(e)=>setChecks({...checks,informed:e.target.checked})}/>
-                    <span>Я подтверждаю, что ознакомлен(а) с <a href="#" onClick={(e)=>e.preventDefault()} className="ol-check-link">Информированным согласием на оказание психологической помощи</a>, не имею противопоказаний и принимаю условия оказания услуг</span>
-                  </label>
-                  <label className="ol-check">
                     <input type="checkbox" checked={checks.personal} onChange={(e)=>setChecks({...checks,personal:e.target.checked})} required/>
                     <span>Я даю согласие на обработку персональных данных в соответствии с <a href="https://disk.yandex.ru/i/VxbJ6jxdi9Fdyw" target="_blank" rel="noopener noreferrer" className="ol-check-link">Политикой обработки и защиты ПД</a> и <a href="https://disk.yandex.ru/i/301uwzHLM1eqNA" target="_blank" rel="noopener noreferrer" className="ol-check-link">Согласием на обработку ПД</a></span>
+                  </label>
+                  <label className="ol-check">
+                    <input type="checkbox" checked={checks.informed} onChange={(e)=>setChecks({...checks,informed:e.target.checked})}/>
+                    <span>Я подтверждаю, что ознакомлен(а) с <a href="#" onClick={(e)=>e.preventDefault()} className="ol-check-link">Информированным согласием на оказание психологической помощи</a>, не имею противопоказаний и принимаю условия оказания услуг</span>
                   </label>
                   <label className="ol-check">
                     <input type="checkbox" checked={checks.promo} onChange={(e)=>setChecks({...checks,promo:e.target.checked})}/>
