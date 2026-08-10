@@ -458,7 +458,11 @@ function Footer() {
             </nav>
           </div>
         </div>
-        <div className="ol-footer__bottom" style={{justifyContent:"center"}}>
+        <div className="ol-footer__bottom" style={{flexDirection:"column",alignItems:"center",gap:"8px"}}>
+          <div style={{display:"flex",gap:"16px",fontSize:"13px",opacity:0.7}}>
+            <a href="https://disk.yandex.ru/i/0IjxtKFMqmAvXA" target="_blank" rel="noopener noreferrer" className="ol-check-link">Публичная оферта</a>
+            <a href="https://disk.yandex.ru/i/VxbJ6jxdi9Fdyw" target="_blank" rel="noopener noreferrer" className="ol-check-link">Политика обработки персональных данных</a>
+          </div>
           <span className="ol-footer__copy">© 2026 Оксана Литвиненко · Психолог Живой Любви · Владивосток</span>
         </div>
       </div>
