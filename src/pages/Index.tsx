@@ -411,7 +411,7 @@ function Booking() {
                   </label>
                   <label className="ol-check">
                     <input type="checkbox" checked={checks.promo} onChange={(e)=>setChecks({...checks,promo:e.target.checked})}/>
-                    <span>Я даю согласие на получение <a href="https://disk.yandex.ru/i/bP_A34c0Nvos_A" target="_blank" rel="noopener noreferrer" className="ol-check-link">рекламной и информационной рассылки</a></span>
+                    <span>Я даю согласие на получение <a href="https://disk.yandex.ru/i/pIGBKX5Tjxa6Wg" target="_blank" rel="noopener noreferrer" className="ol-check-link">рекламной и информационной рассылки</a></span>
                   </label>
                 </div>
                 <button type="submit" className="ol-fsub" disabled={!form.name||!form.phone||!checks.privacy||!checks.personal}>Отправить заявку →</button>
