@@ -403,7 +403,7 @@ function Booking() {
                 <div className="ol-checks">
                   <label className="ol-check">
                     <input type="checkbox" checked={checks.privacy} onChange={(e)=>setChecks({...checks,privacy:e.target.checked})} required/>
-                    <span>Я принимаю условия <a href="https://disk.yandex.ru/i/o4eSAsMZG-ZBvw" target="_blank" rel="noopener noreferrer" className="ol-check-link">Публичной оферты</a></span>
+                    <span>Я принимаю условия <a href="https://disk.yandex.ru/i/0IjxtKFMqmAvXA" target="_blank" rel="noopener noreferrer" className="ol-check-link">Публичной оферты</a></span>
                   </label>
                   <label className="ol-check">
                     <input type="checkbox" checked={checks.personal} onChange={(e)=>setChecks({...checks,personal:e.target.checked})} required/>
