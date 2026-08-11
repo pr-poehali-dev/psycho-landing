@@ -411,7 +411,7 @@ function Booking() {
                   </label>
                   <label className="ol-check">
                     <input type="checkbox" checked={checks.informed} onChange={(e)=>setChecks({...checks,informed:e.target.checked})}/>
-                    <span>Я подтверждаю, что ознакомлен(а) с <a href="#" onClick={(e)=>e.preventDefault()} className="ol-check-link">Информированным согласием на оказание психологической помощи</a>, не имею противопоказаний и принимаю условия оказания услуг</span>
+                    <span>Я подтверждаю, что ознакомлен(а) с <a href="https://disk.yandex.ru/d/JKu2lOPIIuJZDg" target="_blank" rel="noopener noreferrer" className="ol-check-link">Информированным согласием на оказание психологической помощи</a>, не имею противопоказаний и принимаю условия оказания услуг</span>
                   </label>
                   <label className="ol-check">
                     <input type="checkbox" checked={checks.promo} onChange={(e)=>setChecks({...checks,promo:e.target.checked})}/>
